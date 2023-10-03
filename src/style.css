@@ -99,4 +99,7 @@ section .smallText a:hover {
         width: 60%;
         margin: auto;
     }
+    section .descriptionAbout h1 {
+        font-size: 50px;
+    }
 }

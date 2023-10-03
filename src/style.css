@@ -53,6 +53,39 @@ section .text h1 {
     color: black;
     background-color: transparent;
 }
+/*  */
+section .about {
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+    margin: 60px auto 40px auto;
+}
+section .descriptionAbout {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+section .descriptionAbout h1 {
+    font-size: 70px;
+}
+section .descriptionAbout h2 {
+    font-size: larger;
+    color: rgb(184, 184, 184);
+}
+section .smallText {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+    font-size: x-large;
+}
+section .smallText a {
+    color: rgb(118, 170, 178);
+    text-decoration: none;
+}
+section .smallText a:hover {
+    text-decoration: underline;
+    color: rgb(69, 207, 228);
+}
 @media screen and (max-width:1000px){
     section .text {
         padding: 0;

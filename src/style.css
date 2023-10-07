@@ -211,5 +211,13 @@ section .smallText a:hover {
         margin-bottom: 20px;
         border-radius: 20px 20px 20px 20px;
     }
+    .about {
+        width: 100%;
+    }
+    .smallText {
+        width: 85% !important; 
+        text-align: justify !important;
+        font-size: large !important;
+    }
     
 }

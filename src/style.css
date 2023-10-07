@@ -1,6 +1,9 @@
 :root {
     --second-color:rgb(110, 213, 234);
 }
+body {
+    font-family: Helvetica, sans-serif;
+}
 .logo {
     width: 50%;
     display: block;
@@ -176,6 +179,17 @@ section .smallText a:hover {
 .connects ul li a:hover {
     text-decoration: underline;
     color: var(--second-color);
+}
+/* footer */
+footer {
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+    font-weight:bolder;
+}
+footer img {
+    width: 30px;
+    margin: 10px 20px;
 }
 @media screen and (max-width:1000px){
     section .text {

@@ -94,7 +94,6 @@ section .smallText a:hover {
 .stack .pair div {
     width: 50%;
     height: 300px;
-    background-color: blueviolet;
 }
 .stack .pair .more {
     background-color: rgba(58, 58, 58, 0.101);
@@ -135,6 +134,10 @@ section .smallText a:hover {
     display: grid;
     align-items: center;
 }
+.stack .pair p {
+    font-size: medium;
+    font-weight: 300;
+}
 .stack .pair .weatherApp span {
     margin-top: 20px;
     color: aliceblue;
@@ -153,6 +156,26 @@ section .smallText a:hover {
 .stack .pair .weatherApp button:hover {
     background-color: aliceblue;
     color: black;
+}
+/*  */
+.connects ul {
+    margin-top: 80px;
+}
+.connects h1 {
+    font-size: 50px ;
+}
+.connects ul li {
+    list-style: none;
+    margin: 30px auto;
+}
+.connects ul li a {
+    font-size: larger;
+    color: rgb(118, 170, 178);
+    text-decoration: none;
+}
+.connects ul li a:hover {
+    text-decoration: underline;
+    color: var(--second-color);
 }
 @media screen and (max-width:1000px){
     section .text {
